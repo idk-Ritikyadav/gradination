@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Gradist</title>
+</head>
+
+<body>
+    <!-- <div class="dhakdhak">
+        <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/f/f1/Heart_coraz%C3%B3n.svg/1200px-Heart_coraz%C3%B3n.svg.png"
+            alt="" id="dil">
+    </div> -->
+    <nav>
+        <header>Grad<span class="hgroup">ination</span> </header>
+    </nav>
+    <div class="main b">
+        <h2 id="mshead">Fill your Expected marks</h2>
+        <div class="input">
+            <div class="field b"><span>Subjects</span>
+                <div class="sub">
+                    <li>Mathamatics</li>
+                    <li>Chemistry</li>
+                    <li>Physics</li>
+                    <li>Computer</li>
+                    <li>English</li>
+                    <li>Nepali</li>
+                </div>
+            </div>
+            <div class="field b"><span>Theory Mark</span>
+                <div class="marks">
+                    <li><input type="number" placeholder="." id="tmaths" class="mark"></li>
+                    <li><input type="number" placeholder="." id="tchem" class="mark"></li>
+                    <li><input type="number" placeholder="." id="tphy" class="mark"></li>
+                    <li><input type="number" placeholder="." id="tcs" class="mark"></li>
+                    <li><input type="number" placeholder="." id="teng" class="mark"></li>
+                    <li><input type="number" placeholder="." id="tnep" class="mark"></li>
+                </div>
+            </div>
+            <div class="field b"><span>Practical Mark</span>
+                <div class="marks">
+                    <li><input type="number" placeholder="." id="pmaths" class="mark"></li>
+                    <li><input type="number" placeholder="." id="pchem" class="mark"></li>
+                    <li><input type="number" placeholder="." id="pphy" class="mark"></li>
+                    <li><input type="number" placeholder="." id="pcs" class="mark"></li>
+                    <li><input type="number" placeholder="." id="peng" class="mark"></li>
+                    <li><input type="number" placeholder="." id="pnep" class="mark"></li>
+                    <button onclick="calculate()">Calculate</button>
+                </div>
+            </div>
+            <div class="field b" id="grades"><span>Grade</span>
+                <div class="sub">
+                    <li id="gmaths"></li>
+                    <li id="gchem"></li>
+                    <li id="gphy"></li>
+                    <li id="gcs"></li>
+                    <li id="geng"></li>
+                    <li id="gnep"></li>
+                </div>
+            </div>
+        </div>
+        <div id="sec">
+            <span class="sechead">Report</span>
+            <span class="resitem">Percentage :<span id="percent"></span>%<br></span>
+            <span class="resitem">Grade: <span id="grade"></span></span>
+            <span class="resitem"></span>
+
+        </div>
+
+    </div>
+
+
+
+
+    <script src="./script.js"></script>
+</body>
+
+</html>
